@@ -14,7 +14,7 @@ public class baseClass {
 	    @BeforeTest
 	    public void setup() {
 	        driver = new ChromeDriver();
-	        driver.get("https://dev.7757.feebak.zook.top/");
+	        driver.get("https://dev.feebak.com/login");
 	        driver.manage().window().maximize();
 	    }
 
